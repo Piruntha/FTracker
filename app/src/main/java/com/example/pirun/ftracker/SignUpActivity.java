@@ -39,7 +39,5 @@ public class SignUpActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_sign_up);
-
-
     }
 }
