@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33214937625",
+    "firebase_url": "https://ftracker-1b211.firebaseio.com",
+    "project_id": "ftracker-1b211",
+    "storage_bucket": "ftracker-1b211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33214937625:android:d629f12b63619cb3",
+        "android_client_info": {
+          "package_name": "com.example.pirun.ftracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33214937625-o62ul8j9mfgsb86dqb6ija489gm8a4kt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pirun.ftracker",
+            "certificate_hash": "e56c0f1a6f05886ce44016461c931da109ff3e00"
+          }
+        },
+        {
+          "client_id": "33214937625-nf28g42ll8i8bev0jhuvnt6cp1a4s0mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5XB75IynabSQ-uXkzKTcgKIAvj41pCqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33214937625-nf28g42ll8i8bev0jhuvnt6cp1a4s0mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
