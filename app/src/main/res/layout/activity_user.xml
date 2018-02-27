@@ -36,6 +36,7 @@
                 android:src="@drawable/user"
                 android:scaleType="fitCenter"/>
             <EditText
+                android:id="@+id/userName"
                 android:layout_marginTop="60dp"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
@@ -50,6 +51,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
+                android:id="@+id/userBtn"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="right"

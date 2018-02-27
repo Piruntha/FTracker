@@ -31,6 +31,7 @@
             android:layout_height="40dp">
 
             <Button
+                android:id="@+id/FriendBtn"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:background="#1D3767"
@@ -38,6 +39,7 @@
                 android:textSize="20dp"
                 android:textColor="@android:color/background_light" />
             <Button
+                android:id="@+id/LocationBtn"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:background="#1D3767"
@@ -45,6 +47,7 @@
                 android:textSize="20dp"
                 android:textColor="@android:color/background_light" />
             <Button
+                android:id="@+id/ChatBtn"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:background="#1D3767"

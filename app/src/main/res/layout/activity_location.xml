@@ -1,8 +1,71 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pirun.ftracker.LocationActivity" />
+    tools:context="com.example.pirun.ftracker.HomeActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#1D3767">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="FTracker"
+                android:textColor="#F8F8FF"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/FriendBtn"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="#1D3767"
+                android:text="Friends"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light" />
+            <Button
+                android:id="@+id/LocationBtn"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="#1D3767"
+                android:text="Location"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light" />
+            <Button
+                android:id="@+id/ChatBtn"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:background="#1D3767"
+                android:text="Chat"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        tools:context="com.example.pirun.ftracker.LocationActivity" />
+</RelativeLayout>
